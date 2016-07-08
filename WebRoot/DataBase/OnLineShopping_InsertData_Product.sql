@@ -46,19 +46,19 @@ insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_tim
 insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Clothes','Suit',3200,30,'Images/Clothes/西装3.jpg','Good fit for you!',current_date());
 insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Clothes','Suit',5000,30,'Images/Clothes/西装4.jpg','Good fit for you!',current_date());
 
--- Daily Deals
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','Cup',40,300,'Images/Daily Deals/茶杯陶瓷带盖.jpg','Nice art!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','Cup',180,300,'Images/Daily Deals/带盖陶瓷茶杯套装.jpg','Nice art!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals', 'Clotheshorse',300,300,'Images/Daily Deals/晾衣架.jpg','Good for you!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','Disk',550,300,'Images/Daily Deals/盘子中餐具套装.jpg','Good for you!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','Pot',440,300,'Images/Daily Deals/砂锅.jpg','Good fit for you!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','Albume',140,300,'Images/Daily Deals/天堂伞1.jpg','Nice art!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','Albume',140,300,'Images/Daily Deals/天堂伞2.jpg','Nice art!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','Albume',140,300,'Images/Daily Deals/天堂伞3.jpg','Nice art!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','Albume',140,300,'Images/Daily Deals/天堂伞4.jpg','Nice art!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','TrashCan',40,300,'Images/Daily Deals/卫生间垃圾桶.jpg','Good fit for you!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','TrashCan',40,300,'Images/Daily Deals/卫生间垃圾桶2.jpg','Good fit for you!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','SpinMop',240,300,'Images/Daily Deals/旋转拖把.jpg','Good fit for you!',current_date());
+-- DailyDeals
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','Cup',40,300,'Images/DailyDeals/茶杯陶瓷带盖.jpg','Nice art!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','Cup',180,300,'Images/DailyDeals/带盖陶瓷茶杯套装.jpg','Nice art!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals', 'Clotheshorse',300,300,'Images/DailyDeals/晾衣架.jpg','Good for you!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','Disk',550,300,'Images/DailyDeals/盘子中餐具套装.jpg','Good for you!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','Pot',440,300,'Images/DailyDeals/砂锅.jpg','Good fit for you!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','Albume',140,300,'Images/DailyDeals/天堂伞1.jpg','Nice art!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','Albume',140,300,'Images/DailyDeals/天堂伞2.jpg','Nice art!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','Albume',140,300,'Images/DailyDeals/天堂伞3.jpg','Nice art!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','Albume',140,300,'Images/DailyDeals/天堂伞4.jpg','Nice art!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','TrashCan',40,300,'Images/DailyDeals/卫生间垃圾桶.jpg','Good fit for you!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','TrashCan',40,300,'Images/DailyDeals/卫生间垃圾桶2.jpg','Good fit for you!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('DailyDeals','SpinMop',240,300,'Images/DailyDeals/旋转拖把.jpg','Good fit for you!',current_date());
 
 -- Electronics
 insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Electronics','Laptop',6140,300,'Images/Electronics/笔记本.jpg','High Equipments',current_date());
@@ -126,24 +126,24 @@ insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_tim
 insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Motors','Bike',840,300,'Images/Motors/自行车5.jpg','Really Safe!',current_date());
 insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Motors','Bike',2140,300,'Images/Motors/自行车6.jpg','Really Safe!',current_date());
 
--- Sports Goods
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Sports Goods','Ball',140,300,'Images/Sports Goods/篮球1.jpg','Really Comfortable!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Sports Goods','Ball',140,300,'Images/Sports Goods/篮球2.jpg','Really Comfortable!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Sports Goods','Ball',220,300,'Images/Sports Goods/网球.jpg','Really Comfortable!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Sports Goods','Ball',130,300,'Images/Sports Goods/网球2.jpg','Really Comfortable!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Sports Goods','Pat',140,300,'Images/Sports Goods/网球拍1.jpg','Really Comfortable!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Sports Goods','Pat',170,300,'Images/Sports Goods/网球拍2.jpg','Really Comfortable!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Sports Goods','Pat',140,300,'Images/Sports Goods/网球拍3.jpg','Really Comfortable!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Sports Goods','Pat',180,300,'Images/Sports Goods/网球拍3.jpg','Really Safe!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Sports Goods','Bag',150,300,'Images/Sports Goods/运动包.jpg','Really Safe!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Sports Goods','Bag',150,300,'Images/Sports Goods/运动包2.jpg','Really Safe!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Sports Goods','Bag',120,300,'Images/Sports Goods/运动包3.jpg','Really Safe!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Sports Goods','Bag',130,300,'Images/Sports Goods/运动包4.jpg','Really Safe!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Sports Goods','Shoes',140,300,'Images/Sports Goods/运动鞋1.jpg','Really Comfortable!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Sports Goods','Shoes',340,300,'Images/Sports Goods/运动鞋2.jpg','Really Comfortable!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Sports Goods','Shoes',440,300,'Images/Sports Goods/运动鞋3.jpg','Really Comfortable!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Sports Goods','Shoes',940,300,'Images/Sports Goods/运动鞋4.jpg','Really Comfortable!',current_date());
-insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('Sports Goods','Ball',440,300,'Images/Sports Goods/足球.jpg','Really Comfortable!',current_date());
+-- SportsGoods
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('SportsGoods','Ball',140,300,'Images/SportsGoods/篮球1.jpg','Really Comfortable!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('SportsGoods','Ball',140,300,'Images/SportsGoods/篮球2.jpg','Really Comfortable!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('SportsGoods','Ball',220,300,'Images/SportsGoods/网球.jpg','Really Comfortable!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('SportsGoods','Ball',130,300,'Images/SportsGoods/网球2.jpg','Really Comfortable!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('SportsGoods','Pat',140,300,'Images/SportsGoods/网球拍1.jpg','Really Comfortable!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('SportsGoods','Pat',170,300,'Images/SportsGoods/网球拍2.jpg','Really Comfortable!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('SportsGoods','Pat',140,300,'Images/SportsGoods/网球拍3.jpg','Really Comfortable!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('SportsGoods','Pat',180,300,'Images/SportsGoods/网球拍3.jpg','Really Safe!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('SportsGoods','Bag',150,300,'Images/SportsGoods/运动包.jpg','Really Safe!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('SportsGoods','Bag',150,300,'Images/SportsGoods/运动包2.jpg','Really Safe!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('SportsGoods','Bag',120,300,'Images/SportsGoods/运动包3.jpg','Really Safe!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('SportsGoods','Bag',130,300,'Images/SportsGoods/运动包4.jpg','Really Safe!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('SportsGoods','Shoes',140,300,'Images/SportsGoods/运动鞋1.jpg','Really Comfortable!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('SportsGoods','Shoes',340,300,'Images/SportsGoods/运动鞋2.jpg','Really Comfortable!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('SportsGoods','Shoes',440,300,'Images/SportsGoods/运动鞋3.jpg','Really Comfortable!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('SportsGoods','Shoes',940,300,'Images/SportsGoods/运动鞋4.jpg','Really Comfortable!',current_date());
+insert into product(p_type,p_name,p_price,p_quantity,p_image,p_description,p_time) values('SportsGoods','Ball',440,300,'Images/SportsGoods/足球.jpg','Really Comfortable!',current_date());
 
 -- remove the data from the database
 delete from product where p_id=101;
