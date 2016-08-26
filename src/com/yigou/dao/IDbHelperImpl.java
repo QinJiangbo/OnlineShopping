@@ -30,7 +30,7 @@ public class IDbHelperImpl implements IDbHelper {
 	private Connection getConnection(){		
 		try{
 			Class.forName(DRIVER); 
-			Connection conn=DriverManager.getConnection(URL, "Web", "111111");
+			Connection conn=DriverManager.getConnection(URL, "Web", "123456");
 			return conn;
 		}catch (Exception e) {
 			e.printStackTrace();
